@@ -1,0 +1,29 @@
+# --- Core Framework ---
+fastapi>=0.95.2
+uvicorn[standard]>=0.22.0
+python-dotenv>=1.0.0
+pydantic>=1.10.7
+numpy<2.0.0
+opencv-contrib-python-headless==4.8.0.74
+
+# MediaPipe 
+mediapipe==0.10.5
+protobuf>=3.20,<4.24
+
+# Ultralytics (YOLO)
+ultralytics==8.0.192
+
+# --- Real-time Communication ---
+livekit-api>=0.8.2
+websocket-client>=1.6.0
+
+# PyJWT 
+PyJWT>=2.8.0
+
+# --- Database & Auth ---
+SQLAlchemy>=1.4
+pymysql>=1.0
+passlib[bcrypt]
+
+# --- Utilities ---
+requests>=2.28
