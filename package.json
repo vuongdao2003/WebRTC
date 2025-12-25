@@ -1,0 +1,37 @@
+{
+  "name": "eduva",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build --turbopack",
+    "start": "next start",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "@livekit/components-react": "^2.9.15",
+    "@livekit/components-styles": "^1.1.6",
+    "axios": "^1.12.2",
+    "clsx": "^2.1.1",
+    "livekit-client": "^2.15.14",
+    "livekit-server-sdk": "^2.14.0",
+    "lucide-react": "^0.544.0",
+    "next": "^15.5.3",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "react-hook-form": "^7.63.0",
+    "zod": "^4.1.11"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20.19.17",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "15.5.3",
+    "tailwindcss": "^4",
+    "typescript": "^5",
+    "vite": "^7.1.6"
+  }
+}
